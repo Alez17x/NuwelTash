@@ -1,0 +1,9 @@
+{
+  "name": "nuweltash",
+  "version": "1.0.0",
+  "private": true,
+  "description": "NuwelTash - Plataforma inteligente de aprendizaje impulsada por Lyra.",
+  "scripts": {},
+  "author": "Alex Hainover",
+  "license": "MIT"
+}
