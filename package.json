@@ -5,5 +5,8 @@
   "description": "NuwelTash - Plataforma inteligente de aprendizaje impulsada por Lyra.",
   "scripts": {},
   "author": "Alex Hainover",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "vite": "^8.1.5"
+  }
 }
