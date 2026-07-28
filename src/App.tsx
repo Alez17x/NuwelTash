@@ -45,7 +45,7 @@ const plans = [
   },
   {
     name: 'Pro', price: '$9', period: 'por mes',
-    features: ['Espacios de estudio ilimitados', 'IA avanzada con mayor capacidad', 'Estadísticas y análisis detallados', 'Almacenamiento ampliado para recursos', 'Prioridad en nuevas funciones', 'Soporte premium'],
+    features: ['Espacios de estudio ilimitados', 'IA avanzada con mayor capacidad', 'Estadísticas y análisis detallados', 'Almacenamiento ampliado para recursos', 'Prioridad en nuevas funciones'],
     cta: 'Empieza ahora', highlight: true,
   },
   {
@@ -212,7 +212,7 @@ export default function App() {
               <span className="text-sky-400 text-[11px] font-bold tracking-[1.2px] uppercase">¿Qué es Nuweltash?</span>
             </div>
             <h2 className="text-[clamp(1.8rem,4vw,2.8rem)] font-extrabold text-[#e8edf5] leading-[1.15] tracking-tight mb-5">
-              La plataforma que transforma cómo estudias
+              La plataforma que mejora cómo estudias
             </h2>
             <p className="text-slate-400 text-base leading-[1.8] mb-5">
               Nuweltash NuwelTash es una plataforma de gestión del aprendizaje diseñada para centralizar todo tu proceso de estudio en un solo lugar. Desde la planificación de tus sesiones y la organización de recursos, hasta el seguimiento de tu progreso y el apoyo de inteligencia artificial, cada herramienta está pensada para ayudarte a estudiar con mayor claridad, constancia y eficiencia.
