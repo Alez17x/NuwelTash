@@ -40,17 +40,17 @@ const stats = [
 const plans = [
   {
     name: 'Gratuito', price: '$0', period: 'para siempre',
-    features: ['5 cursos activos', 'Calendario básico', 'Estadísticas semanales', 'Comunidad pública'],
+    features: ['Hasta 3 espacios de estudio', 'Organización de tareas y calendario', 'Estadísticas básicas de progreso', 'IA con consultas limitadas', 'Acceso a la comunidad'],
     cta: 'Comenzar gratis', highlight: false,
   },
   {
     name: 'Pro', price: '$9', period: 'por mes',
-    features: ['Cursos ilimitados', 'IA adaptativa', 'Análisis avanzado', 'Grupos privados', 'Soporte prioritario'],
+    features: ['Espacios de estudio ilimitados', 'IA avanzada con mayor capacidad', 'Estadísticas y análisis detallados', 'Almacenamiento ampliado para recursos', 'Prioridad en nuevas funciones', 'Soporte premium'],
     cta: 'Empieza ahora', highlight: true,
   },
   {
     name: 'Equipo', price: '$29', period: 'por mes',
-    features: ['Todo en Pro', 'Hasta 10 usuarios', 'Panel de administración', 'Reportes exportables', 'Onboarding dedicado'],
+    features: ['Todo lo incluido en Pro', 'Hasta 8 miembros por equipo', 'Espacios colaborativos', 'Estadísticas y progreso del equipo', 'Biblioteca de recursos compartidos'],
     cta: 'Contactar ventas', highlight: false,
   },
 ]
@@ -324,7 +324,7 @@ export default function App() {
             Simple y transparente
           </h2>
           <p className="text-slate-500 text-base max-w-sm mx-auto leading-relaxed">
-            Empieza gratis y escala cuando lo necesites. Sin sorpresas.
+            Empieza gratis y desbloquea herramientas más avanzadas a medida que tus necesidades aumenten.
           </p>
         </div>
 
