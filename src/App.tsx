@@ -22,12 +22,12 @@ const MenuIcon = ({ open }: { open: boolean }) => (
 )
 
 const features = [
-  { icon: '📅', title: 'Organiza tu semana', desc: 'Planifica tus sesiones con un calendario inteligente que se adapta a tu ritmo y objetivos.' },
-  { icon: '📊', title: 'Sigue tu progreso', desc: 'Visualiza tu avance con métricas claras: horas estudiadas, temas dominados y áreas por reforzar.' },
+  { icon: '📅', title: 'Planifica cada sesión', desc: 'Organiza tu tiempo con calendarios, horarios y objetivos de estudio adaptados a tu disponibilidad y prioridades.' },
+  { icon: '📊', title: 'Mide tu progreso', desc: 'Consulta estadísticas, identifica tus fortalezas, detecta qué temas necesitan más práctica y visualiza cómo evolucionas con el tiempo.' },
   { icon: '🎯', title: 'Mantén la constancia', desc: 'Rachas de estudio, recordatorios y metas semanales para que nunca pierdas el ritmo.' },
   { icon: '🧠', title: 'Aprende a tu ritmo', desc: 'Contenido adaptativo que detecta tus fortalezas y ajusta la dificultad según tu desempeño.' },
-  { icon: '🤝', title: 'Comunidad activa', desc: 'Conecta con otros estudiantes, comparte recursos y resuelve dudas en tiempo real.' },
-  { icon: '📱', title: 'Siempre disponible', desc: 'Accede desde cualquier dispositivo. Tu progreso se sincroniza automáticamente en la nube.' },
+  { icon: '🤖', title: 'Apóyate en inteligencia artificial', desc: 'Obtén ayuda para resolver dudas, analizar tu rendimiento, generar recursos de estudio y recibir recomendaciones personalizadas según tu avance.' },
+  { icon: '📚', title: 'Centraliza todos tus recursos', desc: 'Guarda apuntes, documentos, enlaces, imágenes y otros materiales en un solo lugar para acceder a ellos cuando los necesites.' },
 ]
 
 const stats = [
@@ -96,7 +96,7 @@ export default function App() {
             <div className="w-9 h-9 rounded-full bg-gradient-to-br from-sky-400 to-sky-600 flex items-center justify-center text-[#0a0d14]">
               <GraduationIcon />
             </div>
-            <span className="font-bold text-[17px] text-[#e8edf5] tracking-tight">EstudiaHub</span>
+            <span className="font-bold text-[17px] text-[#e8edf5] tracking-tight">NuwelTash</span>
           </div>
 
           {/* Desktop links */}
@@ -166,7 +166,7 @@ export default function App() {
 
         <div className="relative max-w-3xl mx-auto px-6 text-center">
           <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-sky-400/10 border border-sky-400/25 mb-7">
-            <span className="text-sky-400 text-[11px] font-bold tracking-[1.5px] uppercase">Bienvenido a EstudiaHub</span>
+            <span className="text-sky-400 text-[11px] font-bold tracking-[1.5px] uppercase">Bienvenido a Nuweltash</span>
           </div>
 
           <h1 className="text-[clamp(2.4rem,6vw,4.2rem)] font-extrabold text-[#e8edf5] leading-[1.1] tracking-[-1px] mb-6">
@@ -177,7 +177,7 @@ export default function App() {
           </h1>
 
           <p className="text-[clamp(1rem,2vw,1.18rem)] text-slate-400 leading-relaxed max-w-[560px] mx-auto mb-10 font-[Inter,sans-serif]">
-            Organiza tu semana, sigue tu progreso y mantén la constancia con una interfaz limpia y adaptable diseñada para estudiantes serios.
+            Organiza tu semana, sigue tu progreso y mantén la constancia con una interfaz limpia y adaptable diseñada para estudiantes.
           </p>
 
           <div className="flex flex-wrap gap-3.5 justify-center">
@@ -209,19 +209,19 @@ export default function App() {
           {/* Text */}
           <div>
             <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-sky-400/[0.08] border border-sky-400/20 mb-5">
-              <span className="text-sky-400 text-[11px] font-bold tracking-[1.2px] uppercase">¿Qué es EstudiaHub?</span>
+              <span className="text-sky-400 text-[11px] font-bold tracking-[1.2px] uppercase">¿Qué es Nuweltash?</span>
             </div>
             <h2 className="text-[clamp(1.8rem,4vw,2.8rem)] font-extrabold text-[#e8edf5] leading-[1.15] tracking-tight mb-5">
               La plataforma que transforma cómo estudias
             </h2>
             <p className="text-slate-400 text-base leading-[1.8] mb-5">
-              EstudiaHub es una plataforma de gestión del aprendizaje diseñada para que cada sesión cuente. No importa si preparas un examen, aprendes un idioma o desarrollas habilidades técnicas: aquí tienes las herramientas para hacerlo con método.
+              Nuweltash NuwelTash es una plataforma de gestión del aprendizaje diseñada para centralizar todo tu proceso de estudio en un solo lugar. Desde la planificación de tus sesiones y la organización de recursos, hasta el seguimiento de tu progreso y el apoyo de inteligencia artificial, cada herramienta está pensada para ayudarte a estudiar con mayor claridad, constancia y eficiencia.
             </p>
             <p className="text-slate-400 text-base leading-[1.8] mb-8">
-              Combinamos planificación inteligente, análisis de progreso y una comunidad activa para que puedas aprender más rápido, con menos esfuerzo y mayor consistencia.
+              Ya sea que estés preparando un examen, aprendiendo una nueva habilidad o desarrollando un proyecto personal, NuwelTash te proporciona un entorno inteligente donde puedes organizar tus objetivos, mantener el control de tu avance y concentrarte en lo que realmente importa: aprender.
             </p>
             <ul className="flex flex-col gap-3 list-none p-0 m-0">
-              {['Sin distracciones, solo resultados', 'Diseñado para estudiantes independientes', 'Gratis para empezar, sin tarjeta de crédito'].map(item => (
+              {['Organiza, estudia y progresa desde una única plataforma.', 'Herramientas inteligentes para planificar, analizar y mejorar tu aprendizaje.', 'Empieza gratis y desbloquea funciones avanzadas cuando las necesites.'].map(item => (
                 <li key={item} className="flex items-center gap-2.5 text-slate-300 text-[15px]">
                   <span className="w-5 h-5 rounded-full bg-sky-400/15 border border-sky-400/30 flex items-center justify-center text-sky-400 shrink-0">
                     <CheckIcon />
@@ -290,10 +290,10 @@ export default function App() {
             <span className="text-sky-400 text-[11px] font-bold tracking-[1.2px] uppercase">Funciones</span>
           </div>
           <h2 className="text-[clamp(1.8rem,4vw,2.6rem)] font-extrabold text-[#e8edf5] leading-[1.15] tracking-tight mb-4">
-            Todo lo que necesitas para aprender mejor
+            Todo lo que necesitas para gestionar tu aprendizaje
           </h2>
           <p className="text-slate-500 text-base max-w-md mx-auto leading-relaxed">
-            Herramientas diseñadas con un solo objetivo: que cada minuto de estudio valga el doble.
+            Una plataforma creada para que planificar, estudiar y hacer seguimiento a tu progreso sea más sencillo, organizado y efectivo.
           </p>
         </div>
 
@@ -369,7 +369,7 @@ export default function App() {
             <div className="w-8 h-8 rounded-full bg-gradient-to-br from-sky-400 to-sky-600 flex items-center justify-center text-[#0a0d14]">
               <GraduationIcon />
             </div>
-            <span className="font-bold text-base text-[#e8edf5]">EstudiaHub</span>
+            <span className="font-bold text-base text-[#e8edf5]">Nuweltash</span>
           </div>
 
           {/* Footer links */}
@@ -383,7 +383,7 @@ export default function App() {
           </nav>
 
           <p className="text-slate-700 text-[13px] text-center m-0">
-            © 2026 EstudiaHub. Hecho con dedicación para estudiantes del mundo.
+            © 2026 Nuweltash. Hecho con dedicación para estudiantes del mundo.
           </p>
         </div>
       </footer>
