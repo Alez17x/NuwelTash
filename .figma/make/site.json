@@ -1,10 +1,11 @@
 {
-  "description": "Showcases a homepage featuring an engaging image and a dedicated section explaining the site's purpose to inform and attract visitors.",
+  "title": "NuwelTash",
+  "description": "NuwelTash es una plataforma para organizar tus estudios, centralizar recursos, seguir tu progreso y cumplir tus metas de aprendizaje.",
+  "language": "es",
   "robots": {
-    "index": false
+    "index": true
   },
   "accessibility": {
-    "addBypassLinks": false,
-    "ignoreReducedMotion": false
+    "addBypassLinks": true
   }
 }

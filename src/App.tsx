@@ -215,7 +215,7 @@ export default function App() {
               La plataforma que transforma cómo estudias
             </h2>
             <p className="text-slate-400 text-base leading-[1.8] mb-5">
-              Nuweltash NuwelTash es una plataforma de gestión del aprendizaje diseñada para centralizar todo tu proceso de estudio en un solo lugar. Desde la planificación de tus sesiones y la organización de recursos, hasta el seguimiento de tu progreso y el apoyo de inteligencia artificial, cada herramienta está pensada para ayudarte a estudiar con mayor claridad, constancia y eficiencia.
+              NuwelTash es una plataforma de gestión del aprendizaje diseñada para centralizar todo tu proceso de estudio en un solo lugar. Desde la planificación de tus sesiones y la organización de recursos, hasta el seguimiento de tu progreso y el apoyo de inteligencia artificial, cada herramienta está pensada para ayudarte a estudiar con mayor claridad, constancia y eficiencia.
             </p>
             <p className="text-slate-400 text-base leading-[1.8] mb-8">
               Ya sea que estés preparando un examen, aprendiendo una nueva habilidad o desarrollando un proyecto personal, NuwelTash te proporciona un entorno inteligente donde puedes organizar tus objetivos, mantener el control de tu avance y concentrarte en lo que realmente importa: aprender.
